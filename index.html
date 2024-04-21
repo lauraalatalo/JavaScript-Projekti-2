@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elokuvasovellus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Elokuvasovellus</h1>
+    </header>
+    <main>
+        <div id="search-area">
+            <div>
+                <label for="theater-select">Valitse teatteri:</label>
+                <select id="theater-select">
+                </select>
+            </div>
+            <div>
+                <label for="movie-search-input">Hae elokuvaa:</label>
+                <input type="text" id="movie-search-input" placeholder="Kirjoita vähintään 3 merkkiä...">
+            </div>
+            <div>
+                <button id="search-button">Hae</button>
+            </div>
+        </div>
+        <div id="movies-container">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
